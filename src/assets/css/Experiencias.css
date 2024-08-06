@@ -10,7 +10,7 @@
 .Experience-Space {
     border: 2px solid #fff;
     border-radius: 15px;
-    width: 75vw;
+    width: 85vw;
     height: 70vh;
     overflow: auto;
 }
@@ -57,4 +57,15 @@
     color: black;
     text-shadow: 2px 0 #fff, -2px 0 #fff, 0 2px #fff, 0 -2px #fff,
         1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff;
+}
+
+::-webkit-scrollbar {
+    width: 25px;
+    border-radius: 15px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #5b2db7;
+    border-radius: 35px;
+    border: black 10px solid;
 }

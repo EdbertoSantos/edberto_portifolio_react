@@ -2,14 +2,14 @@ import { Link } from "react-router-dom";
 
 import '../css/Navbar.css'
 
-import logoNavBar from '../IMG/LogoWHI.png'
+import logoNavBar from "../IMG/LogoWHI.png"
 
 const Navbar = () => {
     return (
         <nav>
             <header className="Header-op">
                 <ul className="Header-Links">
-                    <img src="{ logoNavBar }" alt="logo" className="Header-Links-IMG" />
+                    <img src={ logoNavBar } alt="logo" className="Header-Links-IMG" />
                         <li className="Header-Links-Unit"><Link to="/edberto_portifolio_react">// INÍCIO</Link></li>
                         <li className="Header-Links-Unit"><Link to="/Projetos">// PROJETOS</Link></li>
                         <li className="Header-Links-Unit"><Link to="/Experiencia">// EXPERIÊNCIAS</Link></li>
