@@ -1,0 +1,10 @@
+* {
+    margin: 0px;
+    padding-inline-start: 0px;
+    font-family: 'Azeret Mono', monospace;
+    color: #fff;
+}
+
+body {
+    background-color: black;
+}

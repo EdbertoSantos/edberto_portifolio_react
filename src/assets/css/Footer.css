@@ -1,0 +1,93 @@
+.Pezinho {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 5vh;
+    left: 46vw;
+}
+
+.Pezinho-Link {
+    border: #fff 3px solid;
+    border-radius: 15px;
+    padding: 1vh;
+    text-decoration: none;
+}
+
+.Pezinho-Link:hover {
+    text-shadow: 2px 0 #fff, -2px 0 #fff, 0 2px #fff, 0 -2px #fff, 1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff;
+}
+
+.center-con {
+    display: flex;
+    justify-content: center;
+}
+
+.round {
+    position: relative;
+    border: 3px solid #fff;
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+}
+
+span {
+    z-index: 999;
+    height: 3px;
+    margin: 1px;
+    width: 15px;
+    background: #fff;
+    transition: 0.4s ease;
+}
+
+span:first-child {
+    display: block;
+    position: absolute;
+    transform: rotate(45deg);
+    left: 15%;
+    bottom: 30%;
+}
+
+span:nth-child(2) {
+    display: block;
+    position: absolute;
+    transform: rotate(-45deg);
+    left: 37%;
+    bottom: 30%;
+}
+
+span:nth-child(3) {
+    display: block;
+    position: absolute;
+    transform: rotate(45deg);
+    left: 15%;
+    bottom: 54%;
+}
+
+span:nth-child(4) {
+    display: block;
+    position: absolute;
+    transform: rotate(-45deg);
+    left: 38%;
+    bottom: 55%;
+}
+
+.round:hover span:nth-child(1) {
+    transform: rotate(-135deg);
+}
+
+.round:hover span:nth-child(2) {
+    transform: rotate(135deg);
+}
+
+.round:hover span:nth-child(3) {
+    transform: rotate(225deg);
+}
+
+.round:hover span:nth-child(4) {
+    transform: rotate(-225deg);
+}
+
+.Pezinho-cima{
+    transform: rotate(180deg);
+    margin-left: 5vh;
+}

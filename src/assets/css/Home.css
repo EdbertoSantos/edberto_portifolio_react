@@ -1,0 +1,24 @@
+.Start {
+    padding-top: 6vh;
+    height: 94vh;
+    max-width: 100%;
+    background-image: url(../IMG/Group6.png);
+    background-repeat: round;
+}
+
+
+.Start-Title {
+    height: 80vh;
+    width: 75vw;
+    display: grid;
+    align-content: center;
+    justify-content: space-around;
+}
+
+.Start-Title h1 {
+    font-size: 8em;
+}
+
+.Start-Title h2 {
+    padding-left: 10px;
+}

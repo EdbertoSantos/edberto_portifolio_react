@@ -1,0 +1,31 @@
+.Habilits {
+    height:85vh;
+    max-width: 100vw;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.Habilits-Division-Title {
+    list-style: none;
+    border: 2px solid #fff;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 20vw;
+}
+
+.Habilits-Division-Content {
+    list-style: none;
+    border-bottom: 2px solid #fff;
+    border-left: 2px solid #fff;
+    border-right: 2px solid #fff;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    max-width: 20vw;
+    text-align: center;
+
+}

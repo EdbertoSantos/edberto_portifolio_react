@@ -1,0 +1,60 @@
+.Expirience {
+    padding-top: 10vh;
+    height: 90vh;
+    max-width: 100vw;
+    display: grid;
+    align-content: space-around;
+    justify-content: space-around;
+}
+
+.Experience-Space {
+    border: 2px solid #fff;
+    border-radius: 15px;
+    width: 75vw;
+    height: 70vh;
+    overflow: auto;
+}
+
+.txt {
+    padding: 2vh 1vw 2vh 4vw;
+}
+
+.txt h1 {
+    text-align: center;
+    font-size: 7vh;
+}
+
+.txt p {
+    text-align: justify;
+}
+
+.txt h2 {
+    text-align: center;
+}
+
+.txt h3 {
+    text-align: justify;
+    font-size: 3vh;
+}
+
+.Expirience-download {
+    display: flex;
+    /*padding-bottom: -25px;*/
+    justify-content: flex-end;
+}
+
+.Expirience-download-btn {
+    height: 5vh;
+    width: 15vw;
+    border-radius: 15px;
+    border-color: #fff;
+    background-color: black;
+    font-size: 3vh;
+    text-align: center;
+}
+
+.Expirience-download-btn-text:hover {
+    color: black;
+    text-shadow: 2px 0 #fff, -2px 0 #fff, 0 2px #fff, 0 -2px #fff,
+        1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff;
+}
