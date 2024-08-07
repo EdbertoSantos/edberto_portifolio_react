@@ -14,7 +14,9 @@
 .Project-Space-Title {
     display: flex;
     justify-content: center;
-    margin-bottom: 5vh;
+    margin-bottom: 4vh;
+    font-size: 2rem;
+
 }
 
 .Project-Space-Nav-Ul {
@@ -22,13 +24,15 @@
     padding: 0;
     display: flex;
     justify-content: space-evenly;
-    padding-bottom: 3%;
+    padding-bottom: 2%;
 }
 
 .Project-Space-Nav-Ul-Li {
     display: inline-block;
     border: 3px solid #5b2db7;
-    border-radius: 16px;
+    border-radius: 25px;
+    overflow: hidden;
+    height: 31vh;
 }
 
 .Project-Space-Nav-Ul-Li-Lnk {
@@ -37,4 +41,8 @@
 
 .Project-Space-Nav-Ul-Li:hover {
     border: 3px solid #fff;
+}
+
+.Projetos-Img{
+    max-height: -webkit-fill-available;
 }

@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 import React from "react"
 
-import imagenProjetos from "../IMG/LogoWHI.png"
+import teste from "../IMG/teste.jpg"
 
 import '../css/Projetos.css'
 
@@ -16,36 +16,17 @@ const Projetos = () => {
                         <ul className="Project-Space-Nav-Ul">
                             <li className="Project-Space-Nav-Ul-Li">
                                 <Link to="">
-                                    <img src= {  imagenProjetos  } alt="Projetos-IMG" className="Header-Links-IMG" />
+                                    <img src= {  teste  } alt="Projetos-IMG" className="Projetos-Img" />
                                 </Link>
                             </li>
                             <li className="Project-Space-Nav-Ul-Li">
                                 <Link to="">
-                                    <img src= {  imagenProjetos  } alt="Projetos-IMG" className="Header-Links-IMG" />
+                                    <img src= {  teste  } alt="Projetos-IMG" className="Projetos-Img" />
                                 </Link>
                             </li>
                             <li className="Project-Space-Nav-Ul-Li">
                                 <Link to="">
-                                    <img src= {  imagenProjetos  } alt="Projetos-IMG" className="Header-Links-IMG" />
-                                </Link>
-                            </li>
-                        </ul>
-                    </nav>
-                    <nav className="Project-Space-Nav">
-                        <ul className="Project-Space-Nav-Ul">
-                            <li className="Project-Space-Nav-Ul-Li">
-                                <Link to="">
-                                    <img src= {  imagenProjetos  } alt="Projetos-IMG" className="Header-Links-IMG" />
-                                </Link>
-                            </li>
-                            <li className="Project-Space-Nav-Ul-Li">
-                                <Link to="">
-                                    <img src= {  imagenProjetos  } alt="Projetos-IMG" className="Header-Links-IMG" />
-                                </Link>
-                            </li>
-                            <li className="Project-Space-Nav-Ul-Li">
-                                <Link to="">
-                                    <img src= {  imagenProjetos  } alt="Projetos-IMG" className="Header-Links-IMG" />
+                                    <img src= {  teste  } alt="Projetos-IMG" className="Projetos-Img" />
                                 </Link>
                             </li>
                         </ul>
@@ -54,17 +35,36 @@ const Projetos = () => {
                         <ul className="Project-Space-Nav-Ul">
                             <li className="Project-Space-Nav-Ul-Li">
                                 <Link to="">
-                                    <img src= {  imagenProjetos  } alt="Projetos-IMG" className="Header-Links-IMG" />
+                                    <img src= {  teste  } alt="Projetos-IMG" className="Projetos-Img" />
                                 </Link>
                             </li>
                             <li className="Project-Space-Nav-Ul-Li">
                                 <Link to="">
-                                    <img src= {  imagenProjetos  } alt="Projetos-IMG" className="Header-Links-IMG" />
+                                    <img src= {  teste  } alt="Projetos-IMG" className="Projetos-Img" />
                                 </Link>
                             </li>
                             <li className="Project-Space-Nav-Ul-Li">
                                 <Link to="">
-                                    <img src= {  imagenProjetos  } alt="Projetos-IMG" className="Header-Links-IMG" />
+                                    <img src= {  teste  } alt="Projetos-IMG" className="Projetos-Img" />
+                                </Link>
+                            </li>
+                        </ul>
+                    </nav>
+                    <nav className="Project-Space-Nav">
+                        <ul className="Project-Space-Nav-Ul">
+                            <li className="Project-Space-Nav-Ul-Li">
+                                <Link to="">
+                                    <img src= {  teste  } alt="Projetos-IMG" className="Projetos-Img" />
+                                </Link>
+                            </li>
+                            <li className="Project-Space-Nav-Ul-Li">
+                                <Link to="">
+                                    <img src= {  teste  } alt="Projetos-IMG" className="Projetos-Img" />
+                                </Link>
+                            </li>
+                            <li className="Project-Space-Nav-Ul-Li">
+                                <Link to="">
+                                    <img src= {  teste  } alt="Projetos-IMG" className="Projetos-Img" />
                                 </Link>
                             </li>
                         </ul>
