@@ -11,10 +11,10 @@ const Navbar = () => {
                 <ul className="Header-Links">
                     <img src={ logoNavBar } alt="logo" className="Header-Links-IMG" />
                         <li className="Header-Links-Unit"><Link to="/edberto_portifolio_react">// INÍCIO</Link></li>
-                        <li className="Header-Links-Unit"><Link to="/Projetos">// PROJETOS</Link></li>
-                        <li className="Header-Links-Unit"><Link to="/Experiencia">// EXPERIÊNCIAS</Link></li>
-                        <li className="Header-Links-Unit"><Link to="/Habilidades">// HABILIDADES</Link></li>
-                        <li className="Header-Links-Unit"><Link to="/Contatos">// CONTATO</Link></li>
+                        <li className="Header-Links-Unit"><Link to="/edberto_portifolio_react/Projetos">// PROJETOS</Link></li>
+                        <li className="Header-Links-Unit"><Link to="/edberto_portifolio_react/Experiencia">// EXPERIÊNCIAS</Link></li>
+                        <li className="Header-Links-Unit"><Link to="/edberto_portifolio_react/Habilidades">// HABILIDADES</Link></li>
+                        <li className="Header-Links-Unit"><Link to="/edberto_portifolio_react/Contatos">// CONTATO</Link></li>
                 </ul>
             </header>
         </nav>

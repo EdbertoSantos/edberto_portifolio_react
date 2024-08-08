@@ -16,59 +16,22 @@ const Projetos = () => {
                         <ul className="Project-Space-Nav-Ul">
                             <li className="Project-Space-Nav-Ul-Li">
                                 <Link to="">
-                                    <img src= {  teste  } alt="Projetos-IMG" className="Projetos-Img" />
+                                    <img src={teste} alt="Projetos-IMG" className="Projetos-Img" />
                                 </Link>
                             </li>
                             <li className="Project-Space-Nav-Ul-Li">
                                 <Link to="">
-                                    <img src= {  teste  } alt="Projetos-IMG" className="Projetos-Img" />
+                                    <img src={teste} alt="Projetos-IMG" className="Projetos-Img" />
                                 </Link>
                             </li>
                             <li className="Project-Space-Nav-Ul-Li">
                                 <Link to="">
-                                    <img src= {  teste  } alt="Projetos-IMG" className="Projetos-Img" />
+                                    <img src={teste} alt="Projetos-IMG" className="Projetos-Img" />
                                 </Link>
                             </li>
                         </ul>
                     </nav>
-                    <nav className="Project-Space-Nav">
-                        <ul className="Project-Space-Nav-Ul">
-                            <li className="Project-Space-Nav-Ul-Li">
-                                <Link to="">
-                                    <img src= {  teste  } alt="Projetos-IMG" className="Projetos-Img" />
-                                </Link>
-                            </li>
-                            <li className="Project-Space-Nav-Ul-Li">
-                                <Link to="">
-                                    <img src= {  teste  } alt="Projetos-IMG" className="Projetos-Img" />
-                                </Link>
-                            </li>
-                            <li className="Project-Space-Nav-Ul-Li">
-                                <Link to="">
-                                    <img src= {  teste  } alt="Projetos-IMG" className="Projetos-Img" />
-                                </Link>
-                            </li>
-                        </ul>
-                    </nav>
-                    <nav className="Project-Space-Nav">
-                        <ul className="Project-Space-Nav-Ul">
-                            <li className="Project-Space-Nav-Ul-Li">
-                                <Link to="">
-                                    <img src= {  teste  } alt="Projetos-IMG" className="Projetos-Img" />
-                                </Link>
-                            </li>
-                            <li className="Project-Space-Nav-Ul-Li">
-                                <Link to="">
-                                    <img src= {  teste  } alt="Projetos-IMG" className="Projetos-Img" />
-                                </Link>
-                            </li>
-                            <li className="Project-Space-Nav-Ul-Li">
-                                <Link to="">
-                                    <img src= {  teste  } alt="Projetos-IMG" className="Projetos-Img" />
-                                </Link>
-                            </li>
-                        </ul>
-                    </nav>
+
                 </div>
             </section>
         </div>

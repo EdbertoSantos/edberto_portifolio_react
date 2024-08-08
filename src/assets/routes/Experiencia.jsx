@@ -2,6 +2,8 @@ import React from "react"
 
 import '../css/Experiencias.css'
 
+import curriculo from '../IMG/Curriculo.pdf'
+
 const Experiencia = () => {
     return (
         <div>
@@ -28,8 +30,10 @@ const Experiencia = () => {
                     </div>
                 </div>
                 <div className="Expirience-download">
-                    <button className="Expirience-download-btn">
-                        <p className="Expirience-download-btn-text">Download!</p>
+                    <button className="Expirience-download-btn" >
+                        <a href={curriculo} download={curriculo} rel="Edberto_santos_Curriculo" >
+                            <p className="Expirience-download-btn-text">Download!</p>
+                        </a>
                     </button>
                 </div>
             </section>

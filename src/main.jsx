@@ -10,30 +10,32 @@ import Habilidades from './assets/routes/Habilidades.jsx';
 import Projetos from './assets/routes/Projetos.jsx';
 import Contatos from './assets/routes/Contato.jsx';
 import Experiencia from './assets/routes/Experiencia.jsx';
+import ErrorPage from './assets/routes/error.jsx';
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
+    errorElement: <ErrorPage />,
     children: [
       {
         path: "/edberto_portifolio_react",
         element: <Home />,
       },
       {
-        path: "/Projetos",
+        path: "/edberto_portifolio_react/Projetos",
         element: <Projetos />,
       },
       {
-        path: "/Experiencia",
+        path: "/edberto_portifolio_react/Experiencia",
         element: <Experiencia />,
       },
       {
-        path: "/Habilidades",
+        path: "/edberto_portifolio_react/Habilidades",
         element: <Habilidades />,
       },
       {
-        path: "/Contatos",
+        path: "/edberto_portifolio_react/Contatos",
         element: <Contatos />,
       },
     ],

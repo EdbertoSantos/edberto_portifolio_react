@@ -53,6 +53,11 @@
     text-align: center;
 }
 
+.Expirience-download-btn a{
+text-decoration: none;
+}
+
+
 .Expirience-download-btn-text:hover {
     color: black;
     text-shadow: 2px 0 #fff, -2px 0 #fff, 0 2px #fff, 0 -2px #fff,

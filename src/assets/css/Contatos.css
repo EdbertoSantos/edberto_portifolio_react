@@ -20,6 +20,21 @@
     text-align: center;
 }
 
+.Contacts-infos a{
+    text-decoration: none;
+    margin-bottom: 1vh;
+}
+
+.Contacts-infos p{
+    margin-bottom: 1vh;
+}
+
+.Contacts-infos p:hover{
+    color: black;
+    text-shadow: 2px 0 #fff, -2px 0 #fff, 0 2px #fff, 0 -2px #fff,
+        1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff;
+}
+
 .Contacts-infos-Ed {
     margin-right: 50px;
 }
