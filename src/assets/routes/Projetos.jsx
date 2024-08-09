@@ -1,12 +1,17 @@
 import { Link } from "react-router-dom";
 
-import React from "react"
+import { useState } from "react";
 
 import teste from "../IMG/teste.jpg"
+
+import Modal from '../components/Modal'
 
 import '../css/Projetos.css'
 
 const Projetos = () => {
+
+    const[openModal, setOpenModal] = useState(false)
+
     return (
         <div>
             <section className="Project" id="PROJETOS">
@@ -15,7 +20,7 @@ const Projetos = () => {
                     <nav className="Project-Space-Nav">
                         <ul className="Project-Space-Nav-Ul">
                             <li className="Project-Space-Nav-Ul-Li">
-                                <Link to="">
+                                <Link to="" onClick={() => {setOpenModal(true)}}>
                                     <img src={teste} alt="Projetos-IMG" className="Projetos-Img" />
                                 </Link>
                             </li>
@@ -31,7 +36,7 @@ const Projetos = () => {
                             </li>
                         </ul>
                     </nav>
-
+                    {openModal && <Modal closeModal={setOpenModal}/>}
                 </div>
             </section>
         </div>
