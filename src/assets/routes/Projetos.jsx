@@ -4,13 +4,13 @@ import { useState } from "react";
 
 import teste from "../IMG/teste.jpg"
 
-import Modal from '../components/Modal'
+import Modal from "../components/Modal.jsx"
 
 import '../css/Projetos.css'
 
 const Projetos = () => {
 
-    const[openModal, setOpenModal] = useState(false)
+    const [openModal, setOpenModal] = useState(false)
 
     return (
         <div>
@@ -20,23 +20,23 @@ const Projetos = () => {
                     <nav className="Project-Space-Nav">
                         <ul className="Project-Space-Nav-Ul">
                             <li className="Project-Space-Nav-Ul-Li">
-                                <Link to="" onClick={() => {setOpenModal(true)}}>
+                                <Link to="" onClick={() => { setOpenModal(true)}}>
                                     <img src={teste} alt="Projetos-IMG" className="Projetos-Img" />
                                 </Link>
                             </li>
                             <li className="Project-Space-Nav-Ul-Li">
-                                <Link to="">
+                                <Link to="" onClick={() => { setOpenModal(true) }}>
                                     <img src={teste} alt="Projetos-IMG" className="Projetos-Img" />
                                 </Link>
                             </li>
                             <li className="Project-Space-Nav-Ul-Li">
-                                <Link to="">
+                                <Link to="" onClick={() => { setOpenModal(true) }}>
                                     <img src={teste} alt="Projetos-IMG" className="Projetos-Img" />
                                 </Link>
                             </li>
                         </ul>
+                        {openModal && <Modal closeModal={setOpenModal} />}
                     </nav>
-                    {openModal && <Modal closeModal={setOpenModal}/>}
                 </div>
             </section>
         </div>

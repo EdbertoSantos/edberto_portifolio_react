@@ -11,6 +11,7 @@ import Projetos from './assets/routes/Projetos.jsx';
 import Contatos from './assets/routes/Contato.jsx';
 import Experiencia from './assets/routes/Experiencia.jsx';
 import ErrorPage from './assets/routes/error.jsx';
+import Modalinfos from './assets/components/Modalinfos.jsx';
 
 const router = createBrowserRouter([
   {
