@@ -11,6 +11,14 @@ import '../css/Projetos.css'
 const Projetos = () => {
 
     const [openModal, setOpenModal] = useState(false)
+    const [modalFrameProject, setModalFrameProject] = useState('')
+    const [modalFrameReadMe, setModalFrameReadMe] = useState('')
+
+    const handleOpenModal = (frameProject, frameReadMe) => {
+        setModalFrameProject(frameProject);
+        setModalFrameReadMe(frameReadMe);
+        setOpenModal(true);
+    };
 
     return (
         <div>
@@ -20,7 +28,7 @@ const Projetos = () => {
                     <nav className="Project-Space-Nav">
                         <ul className="Project-Space-Nav-Ul">
                             <li className="Project-Space-Nav-Ul-Li">
-                                <Link to='' onClick={() => { setOpenModal(true)}}>
+                                <Link to='' onClick={() => { handleOpenModal('Conteudo do modal para o projeto', 'readme') }}>
                                     <img src={calcIMC} alt="Projetos-IMG" className="Projetos-Img" />
                                 </Link>
                             </li>
@@ -35,7 +43,7 @@ const Projetos = () => {
                                 </Link>
                             </li>
                         </ul>
-                        {openModal && <Modal closeModal={setOpenModal} />}
+                        {openModal && <Modal closeModal={setOpenModal} frameProject={modalFrameProject} frameReadMe={modalFrameReadMe} />}
                     </nav>
                 </div>
             </section>

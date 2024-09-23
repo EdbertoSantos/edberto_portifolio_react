@@ -11,6 +11,7 @@ import Projetos from './assets/routes/Projetos.jsx';
 import Contatos from './assets/routes/Contato.jsx';
 import Experiencia from './assets/routes/Experiencia.jsx';
 import ErrorPage from './assets/routes/error.jsx';
+import SobreMim from './assets/routes/SobreMim.jsx';
 
 const router = createBrowserRouter([
   {
@@ -37,6 +38,10 @@ const router = createBrowserRouter([
       {
         path: "/edberto_portifolio_react/Contatos",
         element: <Contatos />,
+      },
+      {
+        path: "/edberto_portifolio_react/SobreMim",
+        element: <SobreMim />,
       },
     ],
   },

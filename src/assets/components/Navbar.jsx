@@ -11,6 +11,7 @@ const Navbar = () => {
                 <ul className="Header-Links">
                     <img src={ logoNavBar } alt="logo" className="Header-Links-IMG" />
                         <li className="Header-Links-Unit"><Link to="/edberto_portifolio_react">// INÍCIO</Link></li>
+                        <li className="Header-Links-Unit"><Link to="edberto_portifolio_react/SobreMim">// SOBRE</Link></li>
                         <li className="Header-Links-Unit"><Link to="/edberto_portifolio_react/Projetos">// PROJETOS</Link></li>
                         <li className="Header-Links-Unit"><Link to="/edberto_portifolio_react/Experiencia">// EXPERIÊNCIAS</Link></li>
                         <li className="Header-Links-Unit"><Link to="/edberto_portifolio_react/Habilidades">// HABILIDADES</Link></li>
