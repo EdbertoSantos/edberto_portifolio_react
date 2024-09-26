@@ -27,13 +27,27 @@
     padding-bottom: 2%;
 }
 
-.Project-Space-Nav-Ul-Li{
+.Project-Space-Nav-Ul-Destaque {
+    display: flex;
+    padding-bottom: 2%;
+    justify-content: center;
+}
+
+.Project-Space-Nav-Ul-Li {
     display: inline-block;
-    border: 4px solid #5b2db7;
-    border-radius: 25px;
+    border: 3px solid #5b2db7;
+    border-radius: 15px;
     overflow: hidden;
     height: 31vh;
 
+}
+
+.Project-Space-Nav-Ul-Li-Destaque {
+    display: inline-block;
+    border: 2px solid #5b2db7;
+    border-radius: 15px;
+    overflow: hidden;
+    height: 60vh;
 }
 
 .Project-Space-Nav-Ul-Li-Lnk {
@@ -44,6 +58,6 @@
     border: 4px solid #fff;
 }
 
-.Projetos-Img{
+.Projetos-Img {
     max-height: -webkit-fill-available;
 }
