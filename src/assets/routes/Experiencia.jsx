@@ -2,7 +2,7 @@ import React from "react"
 
 import '../css/Experiencias.css'
 
-import curriculo from '../IMG/Curri.pdf'
+//import curriculo from '../IMG/Curri.pdf'
 
 const Experiencia = () => {
     return (

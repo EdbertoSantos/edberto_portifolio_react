@@ -1,14 +1,14 @@
 import { Link } from "react-router-dom";
 import { useState } from "react";
 
-import calcIMC from "../IMG/calcIMC.png"
-import clickSAUDE from "../IMG/clickSAUDE.png"
-import calc from '../IMG/calc.png'
-import ia from "../IMG/hacktonIA.png"
+//import calcIMC from "../IMG/calcIMC.png"
+//import clickSAUDE from "../IMG/clickSAUDE.png"
+//import calc from '../IMG/calc.png'
+//import ia from "../IMG/hacktonIA.png"
 
-import Modal from "../components/Modal.jsx"
-import IMC from "../components/readMe/IMC.jsx";
-import Calculadora from "../components/readMe/Calculadora.jsx"
+//import Modal from "../components/Modal.jsx"
+//import IMC from "../components/readMe/IMC.jsx";
+//import Calculadora from "../components/readMe/Calculadora.jsx"
 
 import '../css/Projetos.css'
 

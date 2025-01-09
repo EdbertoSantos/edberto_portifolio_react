@@ -10,8 +10,8 @@ import Habilidades from './assets/routes/Habilidades.jsx';
 import Projetos from './assets/routes/Projetos.jsx';
 import Contatos from './assets/routes/Contato.jsx';
 import Experiencia from './assets/routes/Experiencia.jsx';
-import ErrorPage from './assets/routes/error.jsx';
-import SobreMim from './assets/routes/SobreMim.jsx';
+//import ErrorPage from './assets/routes/error.jsx';
+//import SobreMim from './assets/routes/SobreMim.jsx';
 
 const router = createBrowserRouter([
   {
